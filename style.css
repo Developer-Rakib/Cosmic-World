@@ -303,9 +303,16 @@ footer p span{
 .fas.fa-bars {
 	color: wheat;
 	font-size: 32px;
+    display: none;
+}
+.nav-toggle-btn{
+    display: none;
 }
 
 @media (max-width: 720px){
+    .fas.fa-bars {
+        display: block;
+    }
     .nav-toggle-btn{
         display: block;
     }
